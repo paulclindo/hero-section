@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  visibility: hidden;
+
+  .container {
+    width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
+    .hero-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 24px;
+      height: 100vh;
+      .hero-content {
+        width: 50%;
+
+        .hero-content-inner {
+          width: 400px;
+          margin: 0 auto;
+          color: #323232;
+          h1 {
+            font-weight: 500;
+            font-size: 32px;
+            margin-bottom: 24px;
+            .hero-content-line {
+              margin: 0;
+              height: 44px;
+              overflow: hidden;
+            }
+          }
+          p {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            padding-right: 40px;
+            margin-bottom: 56px;
+          }
+          .btn-row {
+            position: relative;
+            &:before {
+              content: "";
+              position: absolute;
+              width: 56px;
+              height: 1px;
+              left: -68px;
+              top: 50%;
+
+              background-color: #dfdfdf;
+            }
+            .explore-button {
+              background-color: none;
+              border: none;
+              font-size: 12px;
+              padding: 0;
+              cursor: pointer;
+              text-transform: uppercase;
+              font-weight: 700;
+              letter-spacing: 0.7px;
+              display: flex;
+              align-items: center;
+              position: relative;
+              &:focus {
+                outline: none;
+              }
+              .arrow-icon {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #007fff;
+                height: 42px;
+                width: 42px;
+                border-radius: 100px;
+                left: 80px;
+              }
+            }
+          }
+        }
+      }
+      .hero-images {
+        width: 50%;
+        height: 100vh;
+        position: relative;
+        .hero-images-inner {
+          .hero-image {
+            position: absolute;
+            overflow: hidden;
+            &.girl {
+              top: 0;
+              right: 0;
+              width: 45%;
+              height: 50%;
+            }
+            &.boy {
+              bottom: 24px;
+              left: 0;
+              width: 52%;
+              height: 65%;
+            }
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

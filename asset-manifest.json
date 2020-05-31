@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.d793bc93.chunk.css",
-    "main.js": "/static/js/main.f3e91446.chunk.js",
-    "main.js.map": "/static/js/main.f3e91446.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c03232e0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c03232e0.js.map",
-    "static/js/2.2da5ca4e.chunk.js": "/static/js/2.2da5ca4e.chunk.js",
-    "static/js/2.2da5ca4e.chunk.js.map": "/static/js/2.2da5ca4e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.69448fa192d0f85a6ce5083c6b329f71.js": "/precache-manifest.69448fa192d0f85a6ce5083c6b329f71.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d793bc93.chunk.css.map": "/static/css/main.d793bc93.chunk.css.map",
-    "static/js/2.2da5ca4e.chunk.js.LICENSE.txt": "/static/js/2.2da5ca4e.chunk.js.LICENSE.txt",
-    "static/media/arrow-right.svg": "/static/media/arrow-right.31be4c0b.svg",
-    "static/media/boy.webp": "/static/media/boy.39fed611.webp",
-    "static/media/girl.webp": "/static/media/girl.ab255543.webp"
+    "main.css": "/hero-section/static/css/main.d793bc93.chunk.css",
+    "main.js": "/hero-section/static/js/main.19cb4f2b.chunk.js",
+    "main.js.map": "/hero-section/static/js/main.19cb4f2b.chunk.js.map",
+    "runtime-main.js": "/hero-section/static/js/runtime-main.c3ff794d.js",
+    "runtime-main.js.map": "/hero-section/static/js/runtime-main.c3ff794d.js.map",
+    "static/js/2.2da5ca4e.chunk.js": "/hero-section/static/js/2.2da5ca4e.chunk.js",
+    "static/js/2.2da5ca4e.chunk.js.map": "/hero-section/static/js/2.2da5ca4e.chunk.js.map",
+    "index.html": "/hero-section/index.html",
+    "precache-manifest.69ed7aea99568237b4efffe1c9b20ef4.js": "/hero-section/precache-manifest.69ed7aea99568237b4efffe1c9b20ef4.js",
+    "service-worker.js": "/hero-section/service-worker.js",
+    "static/css/main.d793bc93.chunk.css.map": "/hero-section/static/css/main.d793bc93.chunk.css.map",
+    "static/js/2.2da5ca4e.chunk.js.LICENSE.txt": "/hero-section/static/js/2.2da5ca4e.chunk.js.LICENSE.txt",
+    "static/media/arrow-right.svg": "/hero-section/static/media/arrow-right.31be4c0b.svg",
+    "static/media/boy.webp": "/hero-section/static/media/boy.39fed611.webp",
+    "static/media/girl.webp": "/hero-section/static/media/girl.ab255543.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.c03232e0.js",
+    "static/js/runtime-main.c3ff794d.js",
     "static/js/2.2da5ca4e.chunk.js",
     "static/css/main.d793bc93.chunk.css",
-    "static/js/main.f3e91446.chunk.js"
+    "static/js/main.19cb4f2b.chunk.js"
   ]
 }

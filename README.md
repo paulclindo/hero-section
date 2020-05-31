@@ -8,5 +8,5 @@
 
 ### Demo
 
-Open [http://localhost:3000](Live Demo).
+Live Preview https://paulclindo.github.io/hero-section/
 
